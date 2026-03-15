@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Hour Gym | Transform Your Body</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0a0a0a; color: white; }
+        .bg-gym-hero { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://share.google/6SyOSpjn0v4UB8Djk/hero.jpg'); background-size: cover; background-position: center; }
+        .text-accent { color: #e11d48; } /* Red Accent */
+        .bg-accent { background-color: #e11d48; }
+        .card-dark { background-color: #171717; border: 1px solid #262626; }
+    </style>
+</head>
+<body>
+
+    <section class="bg-gym-hero h-screen flex flex-col justify-center items-center text-center px-4">
+        <h1 class="text-6xl md:text-8xl font-black uppercase tracking-tighter mb-4">
+            Transform Your Body at <span class="text-accent">Power Hour</span>
+        </h1>
+        <p class="text-xl md:text-2xl font-light mb-8">Strength | Cardio | Personal Training</p>
+        <div class="flex gap-4">
+            <button class="bg-accent hover:bg-red-700 text-white font-bold py-4 px-8 rounded-full transition">Join Now</button>
+            <button class="border-2 border-white hover:bg-white hover:text-black text-white font-bold py-4 px-8 rounded-full transition">View Plans</button>
+        </div>
+    </section>
+
+    <section class="py-20 px-8 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div>
+            <h2 class="text-4xl font-bold mb-6 uppercase">About <span class="text-accent">Power Hour Gym</span></h2>
+            <p class="text-gray-400 leading-relaxed text-lg">
+                Power Hour Gym is a premium fitness center focused on strength, endurance, and overall wellness. Our trainers guide members with personalized workout plans and modern equipment to help them reach their fitness goals faster.
+            </p>
+        </div>
+        <div class="rounded-lg overflow-hidden shadow-2xl border-4 border-accent">
+            <img src="https://share.google/6SyOSpjn0v4UB8Djk/gym-interior.jpg" alt="Gym Interior" class="w-full h-80 object-cover">
+        </div>
+    </section>
+
+    <section class="py-20 bg-neutral-900">
+        <div class="max-w-7xl mx-auto px-8">
+            <h2 class="text-4xl font-bold text-center mb-12 uppercase italic">Our Programs</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="card-dark p-2 rounded-xl group overflow-hidden">
+                    <img src="https://share.google/6SyOSpjn0v4UB8Djk/strength.jpg" class="h-48 w-full object-cover rounded-lg group-hover:scale-105 transition">
+                    <h3 class="text-xl font-bold mt-4 p-2">Strength Training</h3>
+                </div>
+                <div class="card-dark p-2 rounded-xl group overflow-hidden">
+                    <img src="https://share.google/6SyOSpjn0v4UB8Djk/cardio.jpg" class="h-48 w-full object-cover rounded-lg group-hover:scale-105 transition">
+                    <h3 class="text-xl font-bold mt-4 p-2">Cardio Fitness</h3>
+                </div>
+                <div class="card-dark p-2 rounded-xl group overflow-hidden">
+                    <img src="https://share.google/6SyOSpjn0v4UB8Djk/weightloss.jpg" class="h-48 w-full object-cover rounded-lg group-hover:scale-105 transition">
+                    <h3 class="text-xl font-bold mt-4 p-2">Weight Loss Program</h3>
+                </div>
+                <div class="card-dark p-2 rounded-xl group overflow-hidden">
+                    <img src="https://share.google/6SyOSpjn0v4UB8Djk/pt.jpg" class="h-48 w-full object-cover rounded-lg group-hover:scale-105 transition">
+                    <h3 class="text-xl font-bold mt-4 p-2">Personal Training</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-8 max-w-7xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-16 uppercase italic">Membership Plans</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="card-dark p-8 rounded-2xl flex flex-col items-center">
+                <h3 class="text-2xl font-bold mb-4">Starter Plan</h3>
+                <span class="text-4xl font-black mb-6">₹2000<span class="text-sm font-normal">/mo</span></span>
+                <ul class="text-gray-400 space-y-3 mb-8 text-center">
+                    <li>Gym Access</li>
+                    <li>Cardio Area</li>
+                    <li>Locker Facility</li>
+                </ul>
+                <button class="w-full py-3 border border-white rounded-lg hover:bg-white hover:text-black font-bold">Choose Plan</button>
+            </div>
+            <div class="card-dark p-8 rounded-2xl flex flex-col items-center border-2 border-accent relative transform scale-105">
+                <span class="absolute -top-4 bg-accent text-white text-xs px-4 py-1 rounded-full uppercase font-bold tracking-widest">Most Popular</span>
+                <h3 class="text-2xl font-bold mb-4">Pro Plan</h3>
+                <span class="text-4xl font-black mb-6">₹4000<span class="text-sm font-normal">/mo</span></span>
+                <ul class="text-gray-400 space-y-3 mb-8 text-center">
+                    <li>Gym Access</li>
+                    <li>Personal Trainer Guidance</li>
+                    <li>Diet Plan</li>
+                </ul>
+                <button class="w-full py-3 bg-accent rounded-lg text-white font-bold hover:bg-red-700">Choose Plan</button>
+            </div>
+            <div class="card-dark p-8 rounded-2xl flex flex-col items-center">
+                <h3 class="text-2xl font-bold mb-4">Elite Plan</h3>
+                <span class="text-4xl font-black mb-6">₹6000<span class="text-sm font-normal">/mo</span></span>
+                <ul class="text-gray-400 space-y-3 mb-8 text-center">
+                    <li>Personal Trainer</li>
+                    <li>Diet Plan</li>
+                    <li>Advanced Training Programs</li>
+                    <li>Priority Support</li>
+                </ul>
+                <button class="w-full py-3 border border-white rounded-lg hover:bg-white hover:text-black font-bold">Choose Plan</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-neutral-900 px-8">
+        <div class="max-w-4xl mx-auto">
+            <div class="card-dark p-10 rounded-3xl">
+                <h2 class="text-3xl font-bold mb-8 text-center">JOIN THE SQUAD</h2>
+                <form class="grid grid-cols-1 md:grid-cols-2 gap-6" onsubmit="alert('Thank you! Our trainer will contact you soon.'); return false;">
+                    <input type="text" placeholder="Name" required class="bg-black border border-neutral-700 p-4 rounded-lg focus:outline-none focus:border-accent">
+                    <input type="tel" placeholder="Phone Number" required class="bg-black border border-neutral-700 p-4 rounded-lg focus:outline-none focus:border-accent">
+                    <input type="email" placeholder="Email" required class="bg-black border border-neutral-700 p-4 rounded-lg focus:outline-none focus:border-accent">
+                    <select class="bg-black border border-neutral-700 p-4 rounded-lg focus:outline-none focus:border-accent">
+                        <option>Weight Loss</option>
+                        <option>Muscle Gain</option>
+                        <option>General Fitness</option>
+                    </select>
+                    <div class="md:col-span-2">
+                        <textarea placeholder="Message" class="w-full bg-black border border-neutral-700 p-4 rounded-lg focus:outline-none focus:border-accent h-32"></textarea>
+                    </div>
+                    <button type="submit" class="md:col-span-2 bg-accent py-4 rounded-lg font-black uppercase text-xl hover:bg-red-700 transition">Submit Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div id="chat-icon" onclick="toggleChat()" class="fixed bottom-6 right-6 bg-accent w-16 h-16 rounded-full flex items-center justify-center cursor-pointer shadow-xl z-50">
+        💬
+    </div>
+
+    <div id="chat-box" class="fixed bottom-24 right-6 w-80 bg-neutral-900 border border-neutral-700 rounded-2xl hidden z-50 overflow-hidden">
+        <div class="bg-accent p-4 font-bold flex justify-between">
+            <span>PowerBot AI</span>
+            <button onclick="toggleChat()">X</button>
+        </div>
+        <div id="chat-content" class="h-64 p-4 overflow-y-auto text-sm space-y-4">
+            <p class="bg-neutral-800 p-2 rounded-lg">Hello! Ask me about pricing, timing, or location.</p>
+        </div>
+        <div class="p-4 border-t border-neutral-700 flex">
+            <input id="chat-input" type="text" class="bg-black flex-grow p-2 rounded-l focus:outline-none" placeholder="Type here...">
+            <button onclick="handleChat()" class="bg-accent px-4 rounded-r">Send</button>
+        </div>
+    </div>
+
+    <script>
+        function toggleChat() {
+            const box = document.getElementById('chat-box');
+            box.classList.toggle('hidden');
+        }
+
+        function handleChat() {
+            const input = document.getElementById('chat-input');
+            const content = document.getElementById('chat-content');
+            const msg = input.value.toLowerCase();
+            let response = "I'm sorry, can you repeat that?";
+
+            if(msg.includes('pricing')) response = "Our plans are ₹2000, ₹4000, and ₹6000 per month.";
+            else if(msg.includes('timing')) response = "Power Hour Gym is open from 6 AM to 10 PM.";
+            else if(msg.includes('trainer')) response = "We have certified professional trainers available.";
+            else if(msg.includes('location')) response = "We are located at Palm Avenue.";
+
+            content.innerHTML += `<p class="text-right text-gray-400 italic">${input.value}</p>`;
+            content.innerHTML += `<p class="bg-neutral-800 p-2 rounded-lg">${response}</p>`;
+            input.value = '';
+            content.scrollTop = content.scrollHeight;
+        }
+    </script>
+
+</body>
+</html>
